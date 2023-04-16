@@ -44,7 +44,7 @@ settemp (newTemps)
 },[coords]);
 return (
   <div className="App grid 
-  place-content-center min-h-screen bg-[url('./images/bg.jpg')] bg-cover px-2">
+  place-content-center min-h-screen bg-[url('/images/bg.jpg')] bg-cover px-2">
       {
         weather ? (
            <Weather weather={weather} temp={temp} />
